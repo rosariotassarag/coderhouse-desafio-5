@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
+        <!--Fontawsome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Docencia Hospital DBV</title>
+    </head>
+    <body>
+            <!-- Header-->
+        
+        
+            <!--Logo-->     
+            <header>
+                <div class="container">
+                    <a href="index.html">
+                        <img src="imagenes/logoipsum.svg" alt="logoipsum" class="img_logo">
+                    </a>
+                            
+                <!--Menú de Navegación-->       
+                    <nav class="nav"> 
+                        <ul class="nav__list">
+                            <li class="nav__item"> <a class="nav__link" href="index.html">Home</a></li>
+                            <li class="nav__item">  <a class="nav__link" href="quienessomos.html">Quienes Somos</a></li>
+                            <li class="nav__item">  <a class="nav__link" href="pregrado.html">Pregrado</a></li>
+                            <li class="nav__item">  <a class="nav__link" href="capacitacion.html">Capacitación</a></li>
+                            <li class="nav__item">  <a class="nav__link" href="comunidad.html">Comunidad</a></li>
+                            <li class="nav__item">  <a class="nav__link" href="biblioteca.html">Biblioteca</a></li>        
+                            <li class="nav__item">  <a class="nav__link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header> 
+        <!-- Sección General-->
+        <div class="container"> 
+        
+                <div class="intro-main__contenido">                       
+                    
+                    
+                    <h1 class="intro-main__contenido__titulo__general">
+                        Contacto
+                    </h1>
+
+
+            <!-- Formulario de contacto-->
+
+            <div>
+                <form action="">
+                    <fieldset>
+                        <div class="contacto__nombre"> 
+                            <label for="nombre">Nombre: </label>
+                            <input type="text" name="nombre" id="nombre" />
+                            <br />
+                            <label for="apellido">Apellido: </label>
+                            <input type="text" name="apellido" id="apellido" />
+                            <br />
+                            <label for="mail">E-Mail: </label>
+                            <input type="text" name="mail" id="mail" />
+                        </div>
+
+                        <div class="contacto">
+                            <div  class="contacto__sexo">
+                                Hombre               
+                                <input type="radio" name="sexo"  valor="hombre"/>  
+                            </div>
+
+                            <div  class="contacto__sexo">
+                                Mujer
+                                <input type="radio" name="sexo"  valor="mujer" class="contacto__sexo" />
+                            </div>
+                        </div>
+
+                        <div class="contacto__terminos"> 
+                            Acepta los términos y condiciones                   
+                            <input type="checkbox" name="acepta" value="1" />
+                        </div>
+
+                        <br>
+                        
+                        <label for="mensaje">Dejanos tu consulta</label>              
+                        <textarea name="mensaje" id="mensaje" cols="90" rows="10"></textarea>
+                            <div class="contacto__boton">
+                                <input type="submit" value="Enviar" style="color: #2C3383;font-weight: 500; padding:4px">
+                                <input type="reset" value="Limpiar formulario" style="color: #2C3383;font-weight: 500; padding:4px">
+                            </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <!-- footer -->
+            <footer class="footer">
+                <div class="column">
+                    <div class="footer__titulo"> 
+                        Equipo de Docencia 
+                    </div>
+
+                    <div>   
+                        Hospital Debilio Blanco Villegas, Tandil
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="footer__titulo"> 
+                        Dirección  
+                    </div>
+
+                    <div> 
+                        Leandro Alem 1300, B7000 Tandil
+                    </div>   
+                </div> 
+            
+                <div class="column">      
+                    <div class="footer__titulo"">Contacto</div>
+                    <div>docenciaddbv@gmail.com</div>
+                    <div>0249 442-5749</div>           
+                </div>
+        
+                <!-- footer - redes sociales -->
+                <div class="column"> 
+                    <div class="footer__titulo"> 
+                        Nuestras Redes 
+                    </div>
+                    <div class="footer__logos">
+                        <a href="https://www.instagram.com/SISPTandil/">
+                            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </div> 
+            
+                    <div class="footer__logos">
+                        <a href="https://www.facebook.com/HDBVTandil/">
+                                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </div>     
+                </div>
+            </footer>
+        </div>
+
+    </body>
+</html>
